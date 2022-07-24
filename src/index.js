@@ -4,6 +4,5 @@ let newNumber = '';
 for (let i=0; i < number.length; i++) {
 newNumber = `${number[i]}${newNumber}`
 }
-return Number(newNumber);
-  
+return Number(newNumber); 
 }
